@@ -1,0 +1,47 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+input[type="text"] {
+    width: 100%
+}
+
+#calcDiv {
+    min-height: 60vh;
+    min-width: 45vh;
+    opacity: 0.8;
+    background-color: rgba(34, 121, 179, 0.089);
+}
+
+#messages-card {
+    min-height: 60vh;
+    min-width: 45vh;
+    opacity: 0.8;
+}
+
+.td {
+    border: 2px;
+    margin: 3px;
+}
+
+.visible {
+    opacity: 1;
+    width: 300px;
+    padding: 10px;
+    word-wrap: break-word;
+    height: 30px;
+    background-color: rgba(34, 121, 179, 0.089);
+    border-radius: 50px;
+    margin: 8px;
+    scroll-behavior: auto;
+}
